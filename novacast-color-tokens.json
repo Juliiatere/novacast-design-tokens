@@ -1,0 +1,88 @@
+{
+  "color": {
+    "brand": {
+      "primary": {
+        "20":  { "value": "#F2F3FC", "description": "Brand light background" },
+        "50":  { "value": "#D3D9F6", "description": "Brand lightest" },
+        "100": { "value": "#C6CFF3", "description": "Brand light" },
+        "300": { "value": "#94A4E9", "description": "Focus ring, input border on focus" },
+        "500": { "value": "#6279DF", "description": "Main CTA, primary actions" },
+        "700": { "value": "#435298", "description": "Hover state on primary button" },
+        "900": { "value": "#232C50", "description": "Brand darkest" }
+      }
+    },
+    "muted": {
+      "20":  { "value": "#F7F7F7", "description": "Subtle background, light gray" },
+      "50":  { "value": "#EBEBE7", "description": "Muted lightest" },
+      "100": { "value": "#E5E5E0", "description": "Muted light" },
+      "300": { "value": "#CFCFC5", "description": "Muted mid" },
+      "500": { "value": "#B8B8AA", "description": "Muted base" },
+      "700": { "value": "#7D7D74", "description": "Muted dark" },
+      "900": { "value": "#42423D", "description": "Muted darkest" }
+    },
+    "text": {
+      "primary": {
+        "50":  { "value": "#C0C3C7", "description": "Text lightest" },
+        "100": { "value": "#AEB2B7", "description": "Placeholder, disabled text" },
+        "300": { "value": "#676D77", "description": "Helper text, labels" },
+        "500": { "value": "#1F2937", "description": "Text base" },
+        "700": { "value": "#151C25", "description": "Body text, paragraphs" },
+        "900": { "value": "#0B0F14", "description": "Headings H1–H4" }
+      }
+    },
+    "border": {
+      "50":  { "value": "#F2F3F5", "description": "Border subtlest" },
+      "100": { "value": "#EEF0F2", "description": "Border subtle" },
+      "300": { "value": "#E0E2E7", "description": "Input borders, dividers, table rows, section separators" },
+      "500": { "value": "#D1D5DB", "description": "Default border" },
+      "700": { "value": "#8E9195", "description": "Border strong" },
+      "900": { "value": "#4B4D4F", "description": "Border strongest" }
+    },
+    "surface": {
+      "page":     { "value": "#FEFEFE", "description": "Main page background" },
+      "elevated": { "value": "#FEFEFE", "description": "Cards, modals, dropdowns — separated from page by border, not color" },
+      "blur":     { "value": "rgba(254, 254, 254, 0.60)", "description": "Navbar, header bar — backdrop blur effect" }
+    },
+    "status": {
+      "info": {
+        "default": { "value": "#007AFF", "description": "Info / action state" },
+        "subtle":  { "value": "#D9EBFF", "description": "Info background" }
+      },
+      "success": {
+        "default": { "value": "#0C8F21", "description": "Success / positive state" },
+        "subtle":  { "value": "#D6F4DE", "description": "Success background" }
+      },
+      "warning": {
+        "default": { "value": "#FF9500", "description": "Warning / attention state" },
+        "subtle":  { "value": "#FFEACC", "description": "Warning background" }
+      },
+      "error": {
+        "default": { "value": "#933434", "description": "Error / critical state" },
+        "subtle":  { "value": "#F7DBDB", "description": "Error background" }
+      },
+      "neutral": {
+        "default": { "value": "#42423D", "description": "Neutral / inactive state" },
+        "subtle":  { "value": "#EBEBE7", "description": "Neutral background" }
+      }
+    },
+    "gradient": {
+      "focus": {
+        "description": "Focus border on inputs, card borders",
+        "css": "linear-gradient(135deg, #C9D3FF 0%, #8499F9 100%)",
+        "stops": {
+          "start": { "value": "#C9D3FF" },
+          "end":   { "value": "#8499F9" }
+        }
+      },
+      "premium": {
+        "description": "Recommended badge, premium markers",
+        "css": "linear-gradient(135deg, #A536E8 0%, #8738EF 50%, #0637B0 100%)",
+        "stops": {
+          "start": { "value": "#A536E8" },
+          "mid":   { "value": "#8738EF" },
+          "end":   { "value": "#0637B0" }
+        }
+      }
+    }
+  }
+}
