@@ -6,9 +6,9 @@
         "50":  { "value": "#D3D9F6", "description": "Brand lightest" },
         "100": { "value": "#C6CFF3", "description": "Brand light" },
         "300": { "value": "#94A4E9", "description": "Focus ring, input border on focus" },
-        "500": { "value": "#6279DF", "description": "Main CTA, primary actions" },
+        "500": { "value": "#6279DF", "description": "Main CTA, primary actions — pending approval to #5068D4" },
         "700": { "value": "#435298", "description": "Hover state on primary button" },
-        "900": { "value": "#232C50", "description": "Brand darkest" }
+        "900": { "value": "#232C50", "description": "Brand darkest, clicked/active state" }
       }
     },
     "muted": {
@@ -93,46 +93,46 @@
         "body":    { "value": "DM Sans", "description": "Used for all body text, labels, captions" }
       },
       "weight": {
-        "regular":  { "value": "400", "description": "Default weight for body text" },
-        "medium":   { "value": "500", "description": "Headings and emphasized body text" }
+        "regular": { "value": "400", "description": "Default weight for body text" },
+        "medium":  { "value": "500", "description": "Headings and emphasized body text" }
       },
       "import": {
-        "css": "@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500&display=swap');",
+        "css":  "@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500&display=swap');",
         "html": "<link href='https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500&display=swap' rel='stylesheet'>"
       }
     },
     "heading": {
       "h1": {
-        "fontFamily":   { "value": "Inter" },
-        "fontWeight":   { "value": "500" },
-        "fontSize":     { "value": "60px" },
-        "lineHeight":   { "value": "130%" },
-        "letterSpacing":{ "value": "0%" },
-        "description":  "Hero headline — podcast name on landing, page hero"
+        "fontFamily":    { "value": "Inter" },
+        "fontWeight":    { "value": "500" },
+        "fontSize":      { "value": "60px" },
+        "lineHeight":    { "value": "130%" },
+        "letterSpacing": { "value": "0%" },
+        "description":   "Hero headline — podcast name on landing, page hero"
       },
       "h2": {
-        "fontFamily":   { "value": "Inter" },
-        "fontWeight":   { "value": "500" },
-        "fontSize":     { "value": "32px" },
-        "lineHeight":   { "value": "130%" },
-        "letterSpacing":{ "value": "0%" },
-        "description":  "Page titles, large section headers"
+        "fontFamily":    { "value": "Inter" },
+        "fontWeight":    { "value": "500" },
+        "fontSize":      { "value": "32px" },
+        "lineHeight":    { "value": "130%" },
+        "letterSpacing": { "value": "0%" },
+        "description":   "Page titles, large section headers"
       },
       "h3": {
-        "fontFamily":   { "value": "Inter" },
-        "fontWeight":   { "value": "500" },
-        "fontSize":     { "value": "24px" },
-        "lineHeight":   { "value": "130%" },
-        "letterSpacing":{ "value": "0%" },
-        "description":  "Section titles within a page"
+        "fontFamily":    { "value": "Inter" },
+        "fontWeight":    { "value": "500" },
+        "fontSize":      { "value": "24px" },
+        "lineHeight":    { "value": "130%" },
+        "letterSpacing": { "value": "0%" },
+        "description":   "Section titles within a page"
       },
       "h4": {
-        "fontFamily":   { "value": "Inter" },
-        "fontWeight":   { "value": "500" },
-        "fontSize":     { "value": "16px" },
-        "lineHeight":   { "value": "130%" },
-        "letterSpacing":{ "value": "0%" },
-        "description":  "Sub-section headers, smaller headings"
+        "fontFamily":    { "value": "Inter" },
+        "fontWeight":    { "value": "500" },
+        "fontSize":      { "value": "16px" },
+        "lineHeight":    { "value": "130%" },
+        "letterSpacing": { "value": "0%" },
+        "description":   "Sub-section headers, smaller headings"
       }
     },
     "heading_responsive": {
@@ -144,37 +144,49 @@
     },
     "body": {
       "md": {
-        "fontFamily":   { "value": "DM Sans" },
-        "fontWeight":   { "value": "400" },
-        "fontSize":     { "value": "16px" },
-        "lineHeight":   { "value": "150%" },
-        "letterSpacing":{ "value": "0%" },
-        "description":  "Primary body copy, main content"
+        "fontFamily":    { "value": "DM Sans" },
+        "fontWeight":    { "value": "400" },
+        "fontSize":      { "value": "16px" },
+        "lineHeight":    { "value": "150%" },
+        "letterSpacing": { "value": "0%" },
+        "description":   "Primary body copy, main content"
       },
       "md_strong": {
-        "fontFamily":   { "value": "DM Sans" },
-        "fontWeight":   { "value": "500" },
-        "fontSize":     { "value": "16px" },
-        "lineHeight":   { "value": "150%" },
-        "letterSpacing":{ "value": "0%" },
-        "description":  "Emphasized body text, card titles, table headers, button labels"
+        "fontFamily":    { "value": "DM Sans" },
+        "fontWeight":    { "value": "500" },
+        "fontSize":      { "value": "16px" },
+        "lineHeight":    { "value": "150%" },
+        "letterSpacing": { "value": "0%" },
+        "description":   "Emphasized body text, card titles, table headers, button labels"
       },
       "sm": {
-        "fontFamily":   { "value": "DM Sans" },
-        "fontWeight":   { "value": "400" },
-        "fontSize":     { "value": "14px" },
-        "lineHeight":   { "value": "150%" },
-        "letterSpacing":{ "value": "0%" },
-        "description":  "Secondary text, labels, list items"
+        "fontFamily":    { "value": "DM Sans" },
+        "fontWeight":    { "value": "400" },
+        "fontSize":      { "value": "14px" },
+        "lineHeight":    { "value": "150%" },
+        "letterSpacing": { "value": "0%" },
+        "description":   "Secondary text, labels, list items"
       },
       "caption": {
-        "fontFamily":   { "value": "DM Sans" },
-        "fontWeight":   { "value": "400" },
-        "fontSize":     { "value": "12px" },
-        "lineHeight":   { "value": "150%" },
-        "letterSpacing":{ "value": "0%" },
-        "description":  "Captions, compact UI, metadata"
+        "fontFamily":    { "value": "DM Sans" },
+        "fontWeight":    { "value": "400" },
+        "fontSize":      { "value": "12px" },
+        "lineHeight":    { "value": "150%" },
+        "letterSpacing": { "value": "0%" },
+        "description":   "Captions, compact UI, metadata"
       }
     }
+  },
+
+  "spacing": {
+    "xs":  { "value": "4px",  "description": "Small labels, icon padding, fine adjustments" },
+    "sm":  { "value": "8px",  "description": "Field padding, space between label and input" },
+    "md":  { "value": "12px", "description": "Tight spacing between text blocks" },
+    "lg":  { "value": "16px", "description": "Base spacing between most elements" },
+    "xl":  { "value": "24px", "description": "Section content spacing, card gaps" },
+    "2xl": { "value": "32px", "description": "Section breaks, major layout spacing" },
+    "3xl": { "value": "40px", "description": "Between major page sections" },
+    "4xl": { "value": "48px", "description": "Hero section internal padding" },
+    "5xl": { "value": "64px", "description": "Top spacing before first section, page-level gaps" }
   }
 }
