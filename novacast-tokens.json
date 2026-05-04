@@ -6,7 +6,7 @@
         "50":  { "value": "#D3D9F6", "description": "Brand lightest" },
         "100": { "value": "#C6CFF3", "description": "Brand light" },
         "300": { "value": "#94A4E9", "description": "Focus ring, input border on focus" },
-        "500": { "value": "#6279DF", "description": "Main CTA, primary actions — pending approval to #5068D4" },
+        "500": { "value": "#5068D4", "description": "Main CTA, primary actions" },
         "700": { "value": "#435298", "description": "Hover state on primary button" },
         "900": { "value": "#232C50", "description": "Brand darkest, clicked/active state" }
       }
